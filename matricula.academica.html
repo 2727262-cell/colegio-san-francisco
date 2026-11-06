@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#062653">
+  <title>Colegio San Francisco Faustino</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="index.html" aria-label="Colegio San Francisco Faustino, inicio">
+      <img src="img/logo-colegio.png" alt="Escudo del Colegio San Francisco Faustino">
+      <span class="brand-name">
+        <small>COLEGIO</small>
+        <strong>SAN FRANCISCO</strong>
+        <em>FAUSTINO</em>
+      </span>
+    </a>
+
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+
+    <nav class="nav" id="nav">
+      <a  href="index.html" >Inicio</a>
+      <a href="oferta.academica.html">Oferta Educativa</a>
+      <a href="matricula.academica.html" class="active">Matrícula</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+
+    <a class="login-button" href="login.html">
+      <span class="user-icon" aria-hidden="true">♙</span>
+      Iniciar Sesión
+    </a>
+  </header>
+    <section class="Matrícula">
+
+
+    <div class="matricula-formulario" id="formulario-matricula">
+
+
+        <h3>Solicitud de matrícula</h3>
+
+
+        <form id="formMatricula">
+
+
+            <label>Nombre del estudiante</label>
+            <input type="text" placeholder="Nombre completo" required>
+
+
+            <label>Fecha de nacimiento</label>
+            <input type="date" required>
+
+
+            <label>Nombre del encargado</label>
+            <input type="text" placeholder="Nombre del padre o encargado" required>
+
+
+            <label>Teléfono de contacto</label>
+            <input type="tel" placeholder="Número de teléfono" required>
+
+
+            <label>Grado que desea cursar</label>
+            <select required>
+                <option value="">Seleccione un grado</option>
+                <option>Educación Inicial</option>
+                <option>Preescolar</option>
+                <option>Primer grado</option>
+                <option>Segundo grado</option>
+                <option>Tercer grado</option>
+                <option>Cuarto grado</option>
+                <option>Quinto grado</option>
+                <option>Sexto grado</option>
+            </select>
+
+
+            <button type="submit" class="btn-enviar">
+                Enviar solicitud
+            </button>
+
+
+            <p id="mensajeMatricula"></p>
+
+
+        </form>
+
+
+    </div>
+
+
+</section>
+
+  <!-- PIE DE PÁGINA (Abajo) -->
+ <footer class="footer">
+    <div class="footer-brand">
+        <img src="img/logo-colegio.png" alt="Logo de la institución">
+
+        <div class="footer-info">
+            <strong>Colegio San Francisco Faustino</strong>
+            <span>Excelencia educativa</span>
+        </div>
+    </div>
+
+    <div class="footer-copy">
+        <p>© 2026 Todos los derechos reservados.</p>
+        <p>Formando estudiantes para el futuro.</p>
+    </div>
+</footer>
+</body>
+</html>
